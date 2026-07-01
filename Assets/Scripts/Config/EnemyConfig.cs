@@ -18,7 +18,6 @@ namespace Config
         {
             new EnemyHeroConfigInfo { heroType = HeroType.Warrior, row = 2, col = 2 },
             new EnemyHeroConfigInfo { heroType = HeroType.Tank, row = 2, col = 3 },
-            new EnemyHeroConfigInfo { heroType = HeroType.Assassin, row = 2, col = 4 },
             new EnemyHeroConfigInfo { heroType = HeroType.Archer, row = 3, col = 2 },
             new EnemyHeroConfigInfo { heroType = HeroType.Mage, row = 3, col = 4 }
         };

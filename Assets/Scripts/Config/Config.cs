@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Config
@@ -11,12 +12,18 @@ namespace Config
         public int battleRow = 4;
         public int battleCol = 7;
         public int benchCount = 8;
-        public SlotConfig slotConfig;
+        public Color playerBattleColor = Color.red;
+        public Color playerBenchColor = Color.yellow;
         public Color enemyBattleColor = Color.dodgerBlue;
         public Color selectedColor = Color.green;
         public int battleHeroMaxNum = 3;
         public EnemyConfig enemyConfig;
         public Color bloodColor = Color.dodgerBlue;
         public Color enemyBloodColor = Color.red;
+        public int refreshCost = 2;
+        public int initialGoldNum = 10;
+        public List<int> levelExp = new(){0, 2, 2, 6, 10, 20, 36, 48, 76, 76};
+        public int buyExpCost = 4;
+        public int buyExpValue = 4;
     }
 }

@@ -17,7 +17,6 @@ namespace Config
         {
             new() { heroType = HeroType.Warrior, cardCount = 20 },
             new() { heroType = HeroType.Tank, cardCount = 20 },
-            new() { heroType = HeroType.Assassin, cardCount = 20 },
             new() { heroType = HeroType.Archer, cardCount = 20 },
             new() { heroType = HeroType.Mage, cardCount = 20 }
         };

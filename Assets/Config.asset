@@ -16,55 +16,45 @@ MonoBehaviour:
   heroConfig:
     infos:
     - heroType: 1
-      heroColor: {r: 1, g: 0, b: 0, a: 1}
       speed: 1
       attack: 12
       defense: 8
       attackInterval: 1
       attackRange: 1.5
       blood: 120
-      model: {fileID: 182410, guid: 75925c365bd895145beefbc806717633, type: 3}
+      model: {fileID: 182410, guid: 0f1c01ac77fcb274aaa412628f3bddaf, type: 3}
       sprite: {fileID: 21300000, guid: dacebb00933c930408ee7099abb438ad, type: 3}
+      name: Warrior
     - heroType: 2
-      heroColor: {r: 0, g: 0, b: 1, a: 1}
       speed: 0.75
       attack: 8
       defense: 15
       attackInterval: 0.8
       attackRange: 1.5
       blood: 180
-      model: {fileID: 134188, guid: a9733678a87478b4689672067b7718fb, type: 3}
-      sprite: {fileID: 21300000, guid: 4c6d80283565b8948b84044de27d93d2, type: 3}
+      model: {fileID: 150198, guid: 10322dd1ad4744641bc0b53d414ec0fa, type: 3}
+      sprite: {fileID: 21300000, guid: 5db830e1485fb564ba8ba4c61607d1cf, type: 3}
+      name: Tank
     - heroType: 3
-      heroColor: {r: 0, g: 0, b: 0, a: 1}
-      speed: 1.5
-      attack: 15
-      defense: 5
-      attackInterval: 1.4
-      attackRange: 1.25
-      blood: 90
-      model: {fileID: 169256, guid: 7b4e51ccca67b514d883b197e0f59efd, type: 3}
-      sprite: {fileID: 21300000, guid: d51d284d9e94efe4fa7db27fc76bf624, type: 3}
-    - heroType: 4
-      heroColor: {r: 0, g: 1, b: 0, a: 1}
       speed: 1
       attack: 13
       defense: 4
       attackInterval: 1.2
       attackRange: 5
       blood: 85
-      model: {fileID: 179124, guid: 04c79b5f6e9ebab48af48fdcf7b6d570, type: 3}
+      model: {fileID: 179124, guid: b66a1f4369f3fd34288b3f5db98f843b, type: 3}
       sprite: {fileID: 21300000, guid: 36665b0122c0326498a92426b2013f81, type: 3}
-    - heroType: 5
-      heroColor: {r: 1, g: 0, b: 1, a: 1}
+      name: Archer
+    - heroType: 4
       speed: 0.9
       attack: 16
       defense: 3
       attackInterval: 0.9
       attackRange: 4.5
       blood: 80
-      model: {fileID: 145554, guid: 1854a3b64b66724429ff0b04e0891fc1, type: 3}
+      model: {fileID: 145554, guid: 7b10298ad598b454c8964587b32aa88a, type: 3}
       sprite: {fileID: 21300000, guid: c91bcfbb6a676c7409ebb720f71b948b, type: 3}
+      name: Mage
   warehouseConfig:
     infos:
     - heroType: 1
@@ -75,17 +65,11 @@ MonoBehaviour:
       cardCount: 20
     - heroType: 4
       cardCount: 20
-    - heroType: 5
-      cardCount: 20
   battleRow: 4
   battleCol: 7
   benchCount: 8
-  slotConfig:
-    infos:
-    - type: 1
-      color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-    - type: 2
-      color: {r: 1, g: 0, b: 0, a: 1}
+  playerBattleColor: {r: 1, g: 0, b: 0, a: 1}
+  playerBenchColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   enemyBattleColor: {r: 0.1176471, g: 0.5647059, b: 1, a: 1}
   selectedColor: {r: 0, g: 1, b: 0, a: 1}
   battleHeroMaxNum: 3
@@ -98,12 +82,9 @@ MonoBehaviour:
       row: 2
       col: 3
     - heroType: 3
-      row: 2
-      col: 4
-    - heroType: 4
       row: 3
       col: 2
-    - heroType: 5
+    - heroType: 4
       row: 3
       col: 4
   bloodColor: {r: 0.1176471, g: 0.5647059, b: 1, a: 1}

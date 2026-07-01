@@ -15,6 +15,8 @@ namespace Config
         public int blood;
         public GameObject model;
         public Sprite sprite;
+        public string name;
+        public int price;
     }
 
     [Serializable]
@@ -30,7 +32,8 @@ namespace Config
                 defense = 8,
                 attackInterval = 1f,
                 attackRange = 1.5f,
-                blood = 120
+                blood = 120,
+                price = 1,
             },
             new()
             {
@@ -40,17 +43,8 @@ namespace Config
                 defense = 15,
                 attackInterval = 0.8f,
                 attackRange = 1.5f,
-                blood = 180
-            },
-            new()
-            {
-                heroType = HeroType.Assassin,
-                speed = 1.5f,
-                attack = 15,
-                defense = 5,
-                attackInterval = 1.4f,
-                attackRange = 1.25f,
-                blood = 90
+                blood = 180,
+                price = 1,
             },
             new()
             {
@@ -60,7 +54,8 @@ namespace Config
                 defense = 4,
                 attackInterval = 1.2f,
                 attackRange = 5f,
-                blood = 85
+                blood = 85,
+                price = 1,
             },
             new()
             {
@@ -70,7 +65,8 @@ namespace Config
                 defense = 3,
                 attackInterval = 0.9f,
                 attackRange = 4.5f,
-                blood = 80
+                blood = 80,
+                price = 1,
             }
         };
 
